@@ -28,12 +28,12 @@ cacheSolve <- function(x, ...) {
 }
 
 ##Test
-m<-makeCacheMatrix(matrix(1:4,2,2))
-m$get()
+##m<-makeCacheMatrix(matrix(1:4,2,2))
+##m$get()
 ##No cache in the first run
-cacheSolve(m)
+##cacheSolve(m)
 ##Retrieving from the cache in the second run (see the message"getting cached inverse matrix")
-cacheSolve(m)
+##cacheSolve(m)
 
 
 
